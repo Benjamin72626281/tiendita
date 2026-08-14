@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Necesario solo en Android 9 (API 28) o inferior para guardar el PDF del corte en Descargas -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:name=".TienditaApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tiendita">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_dashboard" />
+
+        <activity
+            android:name=".cliente.RegistroClienteActivity"
+            android:exported="false"
+            android:label="@string/registro_titulo"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".cliente.ClienteTiendaActivity"
+            android:exported="false"
+            android:label="@string/title_tienda_cliente" />
+
+        <activity
+            android:name=".productos.ProductosActivity"
+            android:exported="false"
+            android:label="@string/title_productos" />
+
+        <activity
+            android:name=".productos.ProductoFormActivity"
+            android:exported="false"
+            android:label="@string/title_producto_form"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ventas.VentasActivity"
+            android:exported="false"
+            android:label="@string/title_ventas" />
+
+        <activity
+            android:name=".inventario.InventarioActivity"
+            android:exported="false"
+            android:label="@string/title_inventario" />
+
+        <activity
+            android:name=".caja.CorteCajaActivity"
+            android:exported="false"
+            android:label="@string/title_corte_caja" />
+
+        <activity
+            android:name=".caja.CorteHistorialActivity"
+            android:exported="false"
+            android:label="@string/title_historial_cortes" />
+
+        <activity
+            android:name=".chatbot.ChatbotActivity"
+            android:exported="false"
+            android:label="@string/title_chatbot"
+            android:windowSoftInputMode="adjustResize" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+# ============================================================
+# App Android (Kotlin) — carpeta app/
+# ============================================================
+app/*.iml
+app/.gradle/
+app/local.properties
+app/.idea/
+app/build/
+app/captures/
+app/.externalNativeBuild/
+app/.cxx/
+app/app/google-services.json
+app/app/build/
+app/app/release/
+app/**/*.apk
+app/**/*.aab
+
+# ============================================================
+# Panel Web — carpeta web/
+# ============================================================
+web/node_modules/
+web/js/config.js
+
+# ============================================================
+# General
+# ============================================================
+.DS_Store
+*.log

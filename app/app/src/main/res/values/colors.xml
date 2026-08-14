@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="brand_primary">#2E7D32</color>
+    <color name="brand_primary_dark">#1B5E20</color>
+    <color name="brand_primary_light">#66BB6A</color>
+    <color name="brand_accent">#FFB300</color>
+
+    <color name="stock_ok">#2E7D32</color>
+    <color name="stock_bajo">#C62828</color>
+    <color name="stock_bajo_bg">#FFEBEE</color>
+    <color name="surface_muted">#F4F6F5</color>
+    <color name="text_secondary">#666666</color>
+
+    <!-- Sistema de diseño ampliado: carrito / catálogo de venta -->
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_field">#F1F4F2</color>
+    <color name="divider_soft">#E4E9E6</color>
+    <color name="chip_bg">#E4F3E5</color>
+    <color name="badge_bg">#FFB300</color>
+    <color name="badge_text">#4A3200</color>
+    <color name="icon_muted">#8A928E</color>
+    <color name="disabled_bg">#E0E0E0</color>
+    <color name="disabled_text">#A6A6A6</color>
+    <color name="danger">#D32F2F</color>
+    <color name="danger_bg">#FDECEA</color>
+    <color name="overlay_scrim">#33000000</color>
+</resources>

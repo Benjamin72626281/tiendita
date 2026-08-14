@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícono "tiendita": una fachada de tienda de barrio con toldo a rayas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cuerpo de la tienda -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23,51.28 H85 V82 A4,4 0 0,1 81,86 H27 A4,4 0 0,1 23,82 Z" />
+
+    <!-- Toldo: barra de rayas -->
+    <path android:fillColor="#FFB300" android:pathData="M23,32.68 H35.4 V40.49 H23 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M35.4,32.68 H47.8 V40.49 H35.4 Z" />
+    <path android:fillColor="#FFB300" android:pathData="M47.8,32.68 H60.2 V40.49 H47.8 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M60.2,32.68 H72.6 V40.49 H60.2 Z" />
+    <path android:fillColor="#FFB300" android:pathData="M72.6,32.68 H85 V40.49 H72.6 Z" />
+
+    <!-- Toldo: picos festoneados -->
+    <path android:fillColor="#FFB300" android:pathData="M23,40.49 L35.4,40.49 L29.2,51.28 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M35.4,40.49 L47.8,40.49 L41.6,51.28 Z" />
+    <path android:fillColor="#FFB300" android:pathData="M47.8,40.49 L60.2,40.49 L54,51.28 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M60.2,40.49 L72.6,40.49 L66.4,51.28 Z" />
+    <path android:fillColor="#FFB300" android:pathData="M72.6,40.49 L85,40.49 L78.8,51.28 Z" />
+
+    <!-- Ventanas -->
+    <path android:fillColor="#FFB300" android:pathData="M30.44,56.84 H40.36 V67.26 H30.44 Z" />
+    <path android:fillColor="#FFB300" android:pathData="M67.64,56.84 H77.56 V67.26 H67.64 Z" />
+
+    <!-- Puerta -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M44.7,86 V70.98 A9.3,9.3 0 0,1 63.3,70.98 V86 Z" />
+</vector>

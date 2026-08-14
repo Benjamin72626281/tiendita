@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "PON_AQUI_TU_PROJECT_NUMBER",
+    "project_id": "PON_AQUI_TU_PROJECT_ID",
+    "storage_bucket": "PON_AQUI_TU_PROJECT_ID.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "PON_AQUI_TU_APP_ID",
+        "android_client_info": {
+          "package_name": "com.example.tiendita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "PON_AQUI_TU_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

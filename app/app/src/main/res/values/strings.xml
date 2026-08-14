@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">tiendita</string>
+
+    <!-- Titles -->
+    <string name="title_dashboard">Tiendita</string>
+    <string name="title_productos">Productos</string>
+    <string name="title_producto_form">Producto</string>
+    <string name="title_ventas">Ventas</string>
+    <string name="title_inventario">Inventario</string>
+    <string name="title_corte_caja">Corte de caja</string>
+    <string name="title_chatbot">Asistente IA</string>
+
+    <!-- Login -->
+    <string name="login_title">Tienda de Abarrotes</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="error_campos_vacios">Completa correo y contraseña</string>
+    <string name="error_login">No se pudo iniciar sesión. Verifica tus datos</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_subtitulo">Administra tu negocio en un solo lugar</string>
+    <string name="cd_regresar">Regresar</string>
+    <string name="badge_ia">IA</string>
+    <string name="btn_productos">Productos</string>
+    <string name="btn_ventas">Registrar venta</string>
+    <string name="btn_inventario">Inventario</string>
+    <string name="btn_corte_caja">Corte de caja</string>
+    <string name="btn_cerrar_sesion">Cerrar sesión</string>
+    <string name="btn_chatbot">Asistente IA</string>
+
+    <!-- Productos -->
+    <string name="hint_nombre">Nombre del producto</string>
+    <string name="hint_precio_compra">Precio de compra (MXN)</string>
+    <string name="hint_precio_venta">Precio de venta (MXN)</string>
+    <string name="hint_cantidad">Cantidad disponible</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="fab_agregar_producto">Agregar producto</string>
+    <string name="sin_productos">Aún no hay productos registrados</string>
+    <string name="confirmar_eliminar_titulo">Eliminar producto</string>
+    <string name="confirmar_eliminar_mensaje">¿Seguro que deseas eliminar \"%1$s\"? Esta acción no se puede deshacer.</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="error_campos_producto">Completa todos los campos correctamente</string>
+
+    <!-- Ventas -->
+    <string name="label_producto">Producto</string>
+    <string name="label_cantidad_vender">Cantidad a vender</string>
+    <string name="label_total">Total: %1$s</string>
+    <string name="btn_registrar_venta">Registrar venta</string>
+    <string name="venta_exitosa">Venta registrada correctamente</string>
+    <string name="error_sin_productos">Registra al menos un producto antes de vender</string>
+    <string name="error_stock_insuficiente">Stock insuficiente. Disponible: %1$d</string>
+    <string name="error_cantidad_invalida">Ingresa una cantidad válida</string>
+    <string name="selecciona_producto">Selecciona un producto</string>
+
+    <!-- Inventario -->
+    <string name="stock_bajo_label">Stock bajo</string>
+    <string name="sin_inventario">No hay productos en inventario</string>
+
+    <!-- Corte de caja -->
+    <string name="total_del_dia">Total de ingresos de hoy</string>
+    <string name="sin_ventas_hoy">Aún no hay ventas registradas hoy</string>
+    <string name="btn_cerrar_caja">Cerrar caja y guardar corte</string>
+    <string name="btn_historial_cortes">Ver historial de cortes</string>
+    <string name="confirmar_corte_titulo">Cerrar caja</string>
+    <string name="confirmar_corte_mensaje">Se guardará el corte con %1$s en %2$d ventas. Podrás descargar el PDF después. ¿Deseas continuar?</string>
+    <string name="corte_guardado_titulo">Corte guardado</string>
+    <string name="corte_guardado_mensaje">El corte se guardó correctamente en la base de datos y su PDF se descargó en la carpeta Descargas.</string>
+    <string name="corte_guardado_sin_pdf">El corte se guardó, pero no se pudo generar el PDF</string>
+    <string name="error_guardar_corte">No se pudo guardar el corte. Intenta de nuevo</string>
+    <string name="btn_abrir_pdf">Abrir PDF</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="error_abrir_pdf">No se encontró una app para abrir el PDF</string>
+    <string name="error_generar_pdf">No se pudo generar el PDF del corte</string>
+
+    <!-- Historial de cortes -->
+    <string name="title_historial_cortes">Historial de cortes</string>
+    <string name="sin_cortes">Aún no hay cortes de caja guardados</string>
+    <string name="detalle_corte_item">%1$d ventas  •  %2$d artículos</string>
+    <string name="btn_descargar_pdf">Descargar PDF</string>
+    <string name="pdf_descargado">PDF descargado en la carpeta Descargas</string>
+
+    <!-- Asistente IA (Chatbot) -->
+    <string name="hint_mensaje_chat">Escribe tu pregunta…</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="chatbot_bienvenida">¡Hola! Soy el asistente de tu tienda. Pregúntame sobre tus productos, precios, existencias, ventas o cortes de caja.</string>
+    <string name="chatbot_error">No pude obtener una respuesta. Detalle: %1$s</string>
+
+    <!-- Notifications -->
+    <string name="canal_stock_nombre">Alertas de inventario</string>
+    <string name="canal_stock_desc">Notificaciones cuando un producto está por acabarse</string>
+    <string name="notif_stock_titulo">Stock bajo</string>
+    <string name="notif_stock_mensaje">%1$s tiene solo %2$d unidades disponibles</string>
+
+    <!-- Registro de cliente -->
+    <string name="link_crear_cuenta">¿Eres cliente? Crea tu cuenta para comprar</string>
+    <string name="registro_titulo">Crear cuenta de cliente</string>
+    <string name="registro_subtitulo">Regístrate para comprar directo desde la app</string>
+    <string name="hint_nombre_cliente">Nombre completo</string>
+    <string name="hint_confirmar_password">Confirmar contraseña</string>
+    <string name="btn_crear_cuenta">Crear cuenta</string>
+    <string name="link_ya_tengo_cuenta">Ya tengo cuenta, iniciar sesión</string>
+    <string name="error_nombre_vacio">Escribe tu nombre completo</string>
+    <string name="error_correo_invalido">Escribe un correo electrónico válido</string>
+    <string name="error_password_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_password_no_coincide">Las contraseñas no coinciden</string>
+    <string name="error_registro">No se pudo crear la cuenta. Intenta de nuevo</string>
+    <string name="error_correo_en_uso">Ese correo ya tiene una cuenta registrada</string>
+
+    <!-- Tienda del cliente -->
+    <string name="title_tienda_cliente">Tienda</string>
+    <string name="saludo_cliente_formato">Hola, %1$s</string>
+    <string name="subtitulo_tienda_cliente">Elige los productos que quieras comprar</string>
+    <string name="sin_productos_disponibles">Por ahora no hay productos disponibles</string>
+    <string name="disponibles_formato">Disponibles: %1$d</string>
+    <string name="btn_restar">Quitar uno</string>
+    <string name="btn_sumar">Agregar uno</string>
+    <string name="btn_pagar">Pagar</string>
+    <string name="articulos_formato">%1$d artículos</string>
+    <string name="confirmar_compra_titulo">Confirmar compra</string>
+    <string name="confirmar_compra_mensaje">%1$s\n\nTotal: %2$s\n\n¿Deseas confirmar tu compra?</string>
+    <string name="error_stock_insuficiente_cliente">Ya no hay suficiente stock de %1$s (disponible: %2$d). Ajusta tu carrito e intenta de nuevo</string>
+    <string name="error_compra">No se pudo completar la compra. Intenta de nuevo</string>
+    <string name="compra_exitosa_titulo">¡Compra realizada!</string>
+    <string name="compra_exitosa_mensaje">Tu compra se registró correctamente y tu tiquet se descargó en la carpeta Descargas.</string>
+    <string name="compra_exitosa_sin_ticket">Tu compra se registró, pero no se pudo generar el tiquet</string>
+    <string name="btn_ver_ticket">Ver tiquet</string>
+
+    <!-- Registrar venta (carrito del vendedor) -->
+    <string name="subtitulo_registrar_venta">Elige un producto, indica la cantidad y agrégalo al carrito</string>
+    <string name="btn_cobrar">Cobrar</string>
+    <string name="confirmar_cobro_titulo">Confirmar cobro</string>
+    <string name="error_cobro">No se pudo registrar la venta. Intenta de nuevo</string>
+
+    <!-- Selector de productos con menú desplegable -->
+    <string name="label_producto">Producto</string>
+    <string name="hint_selecciona_producto">Toca para elegir un producto</string>
+    <string name="label_cantidad">Cantidad</string>
+    <string name="btn_agregar_carrito">Agregar al carrito</string>
+    <string name="titulo_tu_carrito">Tu carrito</string>
+    <string name="carrito_vacio_titulo">Tu carrito está vacío</string>
+    <string name="carrito_vacio_mensaje">Elige un producto arriba y agrégalo para comenzar</string>
+    <string name="producto_opcion_formato">%1$s · %2$s · Disponibles: %3$d</string>
+    <string name="subtotal_item_formato">%1$d × %2$s</string>
+    <string name="btn_restar_cantidad">Disminuir cantidad</string>
+    <string name="btn_sumar_cantidad">Aumentar cantidad</string>
+    <string name="btn_eliminar_del_carrito">Quitar del carrito</string>
+    <string name="sin_stock_disponible">Sin stock disponible</string>
+    <string name="stock_maximo_alcanzado">Ya agregaste todo el stock disponible de este producto</string>
+    <string name="elige_producto_primero">Elige un producto para continuar</string>
+</resources>
